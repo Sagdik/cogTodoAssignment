@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 3
     },
     "preserveOutput": "always",
     "reporter": [
@@ -69,8 +69,8 @@
   },
   "suites": [
     {
-      "title": "test/addTodo.test.ts",
-      "file": "test/addTodo.test.ts",
+      "title": "tests/addTodo.test.ts",
+      "file": "tests/addTodo.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
@@ -89,7 +89,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2092,
+                  "duration": 2036,
                   "errors": [],
                   "stdout": [
                     {
@@ -98,18 +98,32 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-05T14:59:19.145Z",
-                  "attachments": []
+                  "startTime": "2025-02-05T15:13:13.536Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/sagartripathi/Documents/Automation Project/assignment/test-results/tests-addTodo-User-should-be-able-to-add-a-new-todo/trace.zip"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "b36f8a62854336620cc6-8a7ad1780954c0ebc3c2",
-          "file": "test/addTodo.test.ts",
+          "id": "bca6cf700cd6d58825d7-ad7f3734611acc684d2f",
+          "file": "tests/addTodo.test.ts",
           "line": 10,
           "column": 5
-        },
+        }
+      ]
+    },
+    {
+      "title": "tests/deleteTodo.test.ts",
+      "file": "tests/deleteTodo.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
         {
           "title": "User should be able to delete a new todo",
           "ok": true,
@@ -123,9 +137,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 1,
                   "status": "passed",
-                  "duration": 1161,
+                  "duration": 2128,
                   "errors": [],
                   "stdout": [
                     {
@@ -134,18 +148,32 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-05T14:59:22.209Z",
-                  "attachments": []
+                  "startTime": "2025-02-05T15:13:13.536Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/sagartripathi/Documents/Automation Project/assignment/test-results/tests-deleteTodo-User-should-be-able-to-delete-a-new-todo/trace.zip"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "b36f8a62854336620cc6-005ba15e881e73695212",
-          "file": "test/addTodo.test.ts",
-          "line": 23,
+          "id": "a9e3966c69a8b77d5b5e-15f5436349ad41e812ef",
+          "file": "tests/deleteTodo.test.ts",
+          "line": 12,
           "column": 5
-        },
+        }
+      ]
+    },
+    {
+      "title": "tests/editTodo.test.ts",
+      "file": "tests/editTodo.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
         {
           "title": "User should be able to edit a new todo",
           "ok": true,
@@ -159,23 +187,29 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 1045,
+                  "duration": 2140,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-05T14:59:23.373Z",
-                  "attachments": []
+                  "startTime": "2025-02-05T15:13:13.532Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/sagartripathi/Documents/Automation Project/assignment/test-results/tests-editTodo-User-should-be-able-to-edit-a-new-todo/trace.zip"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "b36f8a62854336620cc6-32f69e083d9a80a872b8",
-          "file": "test/addTodo.test.ts",
-          "line": 43,
+          "id": "83d157bff96552b1eb5d-bca7635804be7dc963e0",
+          "file": "tests/editTodo.test.ts",
+          "line": 11,
           "column": 5
         },
         {
@@ -191,23 +225,29 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 1210,
+                  "duration": 743,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-05T14:59:24.422Z",
-                  "attachments": []
+                  "startTime": "2025-02-05T15:13:17.708Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/sagartripathi/Documents/Automation Project/assignment/test-results/tests-editTodo-User-should-ed64a--visible-button-on-new-todo/trace.zip"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "b36f8a62854336620cc6-23b281d5c74f1d07ad7e",
-          "file": "test/addTodo.test.ts",
-          "line": 68,
+          "id": "83d157bff96552b1eb5d-bf9d550257553f71ecb0",
+          "file": "tests/editTodo.test.ts",
+          "line": 36,
           "column": 5
         }
       ]
@@ -215,8 +255,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-02-05T14:59:18.917Z",
-    "duration": 6856.59,
+    "startTime": "2025-02-05T15:13:13.268Z",
+    "duration": 5211.7,
     "expected": 4,
     "skipped": 0,
     "unexpected": 0,

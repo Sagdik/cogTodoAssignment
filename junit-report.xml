@@ -1,20 +1,38 @@
-<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="6.85659">
-<testsuite name="test/addTodo.test.ts" timestamp="2025-02-05T14:59:18.975Z" hostname="" tests="4" failures="0" skipped="0" time="5.508" errors="0">
-<testcase name="User should be able to add a new todo" classname="test/addTodo.test.ts" time="2.092">
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="5.2116999999999996">
+<testsuite name="tests/addTodo.test.ts" timestamp="2025-02-05T15:13:13.331Z" hostname="" tests="1" failures="0" skipped="0" time="2.036" errors="0">
+<testcase name="User should be able to add a new todo" classname="tests/addTodo.test.ts" time="2.036">
 <system-out>
 <![CDATA[test data
+
+[[ATTACHMENT|test-results/tests-addTodo-User-should-be-able-to-add-a-new-todo/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="User should be able to delete a new todo" classname="test/addTodo.test.ts" time="1.161">
+</testsuite>
+<testsuite name="tests/deleteTodo.test.ts" timestamp="2025-02-05T15:13:13.331Z" hostname="" tests="1" failures="0" skipped="0" time="2.128" errors="0">
+<testcase name="User should be able to delete a new todo" classname="tests/deleteTodo.test.ts" time="2.128">
 <system-out>
 <![CDATA[test data
+
+[[ATTACHMENT|test-results/tests-deleteTodo-User-should-be-able-to-delete-a-new-todo/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="User should be able to edit a new todo" classname="test/addTodo.test.ts" time="1.045">
+</testsuite>
+<testsuite name="tests/editTodo.test.ts" timestamp="2025-02-05T15:13:13.331Z" hostname="" tests="2" failures="0" skipped="0" time="2.883" errors="0">
+<testcase name="User should be able to edit a new todo" classname="tests/editTodo.test.ts" time="2.14">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/tests-editTodo-User-should-be-able-to-edit-a-new-todo/trace.zip]]
+]]>
+</system-out>
 </testcase>
-<testcase name="User should be able to validate visible button on new todo" classname="test/addTodo.test.ts" time="1.21">
+<testcase name="User should be able to validate visible button on new todo" classname="tests/editTodo.test.ts" time="0.743">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/tests-editTodo-User-should-ed64a--visible-button-on-new-todo/trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>
