@@ -1,0 +1,20 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="6.85659">
+<testsuite name="test/addTodo.test.ts" timestamp="2025-02-05T14:59:18.975Z" hostname="" tests="4" failures="0" skipped="0" time="5.508" errors="0">
+<testcase name="User should be able to add a new todo" classname="test/addTodo.test.ts" time="2.092">
+<system-out>
+<![CDATA[test data
+]]>
+</system-out>
+</testcase>
+<testcase name="User should be able to delete a new todo" classname="test/addTodo.test.ts" time="1.161">
+<system-out>
+<![CDATA[test data
+]]>
+</system-out>
+</testcase>
+<testcase name="User should be able to edit a new todo" classname="test/addTodo.test.ts" time="1.045">
+</testcase>
+<testcase name="User should be able to validate visible button on new todo" classname="test/addTodo.test.ts" time="1.21">
+</testcase>
+</testsuite>
+</testsuites>
